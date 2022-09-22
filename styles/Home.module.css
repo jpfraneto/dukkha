@@ -27,6 +27,14 @@
   margin-top: 60px;
 }
 
+.container small {
+  width: 333px;
+  margin: 0 auto;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-size: 0.5rem;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
