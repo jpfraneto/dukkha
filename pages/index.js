@@ -13,10 +13,12 @@ export default function Home() {
         <h2>human evolution</h2>
         <p>This universe is coming into being...</p>
         <small>
-          Im looking for funding for this project. I just need 10k usd to
+          I'm looking for funding for this project. I just need 10k usd to
           survive for the next 6 months and I will create something amazing that
           will help a lot of people. If you are interested in supporting this
-          journey, please reach me out at jpfraneto@gmail.com
+          journey, please reach me out at jpfraneto@gmail.com with the subject
+          [DUKKHA]@yourrequestedusernameforthisproject. Thank you for being who
+          you are.
         </small>
       </div>
     </>
