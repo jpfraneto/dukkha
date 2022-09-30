@@ -25,8 +25,10 @@ const ManifestoDay = ({ entry }) => {
   return (
     <div className={styles.container}>
       <h1>{entry.title}</h1>
-      {entry.body.raw.split('\n').map(x => (
-        <p className={styles.paragraphElement}>{x}</p>
+      {entry.body.raw.split('\n').map((x, i) => (
+        <p key={i} className={styles.paragraphElement}>
+          {x}
+        </p>
       ))}
       <Link href='/manifesto'>
         <a>Go Back</a>

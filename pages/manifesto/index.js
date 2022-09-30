@@ -9,8 +9,8 @@ const ManifestoIndex = () => {
         This document is being written every day, until there are 88 documents.
         Each of these documents is open to editing and is open source. Help.
       </p>
-      {manifestosDays.map(x => (
-        <div>
+      {manifestosDays.map((x, i) => (
+        <div key={i}>
           <Link href={`/manifesto/day-${x}`}>
             <a>{`Day ${x}`}</a>
           </Link>
