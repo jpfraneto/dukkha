@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
           [DUKKHA]@yourrequestedusernameforthisproject. Thank you for being who
           you are.
         </small>
+
+        <Link href='/manifesto'>
+          <h2>Manifesto</h2>
+        </Link>
       </div>
     </>
   );
