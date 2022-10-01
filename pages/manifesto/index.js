@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 const ManifestoIndex = () => {
-  const manifestosDays = [1, 2, 3, 4, 5];
+  const manifestosDays = [1, 2, 3, 4, 5,6];
   return (
     <div>
       <p>
