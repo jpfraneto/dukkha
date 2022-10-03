@@ -3,6 +3,7 @@ import components from '../../components/MDXcomponents';
 import { allManifestoEntries } from 'contentlayer/generated';
 import { useMDXComponent } from 'next-contentlayer/hooks';
 import styles from '../../styles/ManifestoDay.module.css';
+import Head from 'next/head';
 
 export async function getStaticPaths() {
   const paths = allManifestoEntries.map(entry => {
@@ -23,17 +24,22 @@ export async function getStaticProps({ params }) {
 
 const ManifestoDay = ({ entry }) => {
   return (
-    <div className={styles.container}>
-      <h1>{entry.title}</h1>
-      {entry.body.raw.split('\n').map((x, i) => (
-        <p key={i} className={styles.paragraphElement}>
-          {x}
-        </p>
-      ))}
-      <Link href='/manifesto'>
-        <a>Go Back</a>
-      </Link>
-    </div>
+    <>
+      <Head>
+        <title>Dukkha · Manifesto · Day {entry.index}</title>
+      </Head>
+      <div className={styles.container}>
+        <h1>{entry.title}</h1>
+        {entry.body.raw.split('\n').map((x, i) => (
+          <p key={i} className={styles.paragraphElement}>
+            {x}
+          </p>
+        ))}
+        <Link href='/manifesto'>
+          <a>Go Back</a>
+        </Link>
+      </div>
+    </>
   );
 };
 
