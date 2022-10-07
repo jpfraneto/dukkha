@@ -13,9 +13,18 @@
   margin: 0;
 }
 
+.middleText {
+  width: 444px;
+}
+
+.topContainer {
+  margin-bottom: 0px;
+}
+
 .container h1 {
   font-size: 4rem;
-  line-height: 2.8rem;
+  line-height: 1rem;
+  margin: 12px;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -43,4 +52,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container a:hover {
+  color: blue;
 }
