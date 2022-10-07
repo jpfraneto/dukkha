@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 const ManifestoIndex = () => {
-  const manifestosDays = [1, 2, 3, 4, 5, 6, 7];
+  const manifestosDays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
   return (
     <>
       <Head>
@@ -12,8 +12,16 @@ const ManifestoIndex = () => {
       <div>
         <p>
           This document is being written every day, until there are 88
-          documents. Each of these documents is open to editing and is open
-          source. Help.
+          documents. Each of these documents is{' '}
+          <a
+            href='https://github.com/jpfraneto/dukkha'
+            target='_blank'
+            rel='noreferrer'
+            style={{ color: 'yellow' }}
+          >
+            open source
+          </a>
+          , waiting for you to edit it.
         </p>
         {manifestosDays.map((x, i) => (
           <div key={i}>

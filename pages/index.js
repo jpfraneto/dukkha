@@ -21,9 +21,13 @@ export default function Home() {
           </p>
         </div>
 
-        <a href='https://discord.gg/gusNPyAg' target='_blank'>
+        <a href='https://discord.gg/gusNPyAg' target='_blank' rel='noreferrer'>
           Join the community
         </a>
+
+        <Link href='/manifesto'>
+          <a>Manifesto</a>
+        </Link>
       </div>
     </>
   );
