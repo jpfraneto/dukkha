@@ -30,6 +30,10 @@ const ManifestoDay = ({ entry }) => {
       </Head>
       <div className={styles.container}>
         <h1>{entry.title}</h1>
+        <small>
+          Average reading time: {Math.floor(entry.words / 250)} minutes
+        </small>
+        <hr />
         {entry.body.raw.split('\n').map((x, i) => (
           <p key={i} className={styles.paragraphElement}>
             {x}
