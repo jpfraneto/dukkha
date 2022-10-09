@@ -7,6 +7,8 @@ body {
   font-family: 'Michroma', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   min-width: 366px;
+  background-color: black;
+  color: white;
 }
 
 a {
@@ -14,16 +16,10 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  color: lightblue;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+* {
+  box-sizing: border-box;
 }

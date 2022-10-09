@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 const ManifestoIndex = () => {
-  const manifestosDays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+  const manifestosDays = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
   return (
     <>
       <Head>
@@ -17,7 +17,7 @@ const ManifestoIndex = () => {
             href='https://github.com/jpfraneto/dukkha/tree/main/data/manifesto'
             target='_blank'
             rel='noreferrer'
-            style={{ color: 'yellow' }}
+            style={{ color: 'lightblue' }}
           >
             open source
           </a>

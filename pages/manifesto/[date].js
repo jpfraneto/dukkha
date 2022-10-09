@@ -33,6 +33,18 @@ const ManifestoDay = ({ entry }) => {
         <small>
           Average reading time: {Math.floor(entry.words / 250)} minutes
         </small>
+        <br />
+        <Link href='/manifesto'>
+          <a>Back to Manifesto</a>
+        </Link>
+        <br />{' '}
+        <a
+          href={`https://github.com/jpfraneto/dukkha/tree/main/data/manifesto/day${entry.index}.mdx`}
+          target='_blank'
+          rel='noreferrer'
+        >
+          Edit in Github
+        </a>
         <hr />
         {entry.body.raw.split('\n').map((x, i) => (
           <p key={i} className={styles.paragraphElement}>
