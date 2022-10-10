@@ -20,11 +20,17 @@ export default function Home() {
             will help the transition of humanity into an awakened species.
           </p>
         </div>
-
+        <a
+          href={`https://jpfraneto.gumroad.com/l/dukkha`}
+          target='_blank'
+          rel='noreferrer'
+          className={styles.paywallBtn}
+        >
+          Get the book
+        </a>{' '}
         <a href='https://discord.gg/gusNPyAg' target='_blank' rel='noreferrer'>
           Join the community
         </a>
-
         <Link href='/manifesto'>
           <a>Manifesto</a>
         </Link>
