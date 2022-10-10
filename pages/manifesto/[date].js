@@ -58,7 +58,7 @@ const ManifestoDay = ({ entry }) => {
         <div className={styles.paywallContainer}>
           <p>
             This is where the free reading ends... For now. If you want to
-            support what I'm doing here, you can go{' '}
+            support what I&apos;m doing here, you can go{' '}
             <a
               href={`https://jpfraneto.gumroad.com/l/dukkha`}
               target='_blank'
@@ -67,9 +67,9 @@ const ManifestoDay = ({ entry }) => {
             >
               here
             </a>{' '}
-            and buy this whole book. You'll get a pdf every day with everything
-            that has come through my writing. I'm very grateful for your help,
-            it helps me keep going.
+            and buy this whole book. You&apos;ll get a pdf every day with
+            everything that has come through my writing. I&apos;m very grateful
+            for your help, it helps me keep going.
           </p>
         </div>
         <Link href='/manifesto'>
