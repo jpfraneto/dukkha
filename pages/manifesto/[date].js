@@ -47,18 +47,14 @@ const ManifestoDay = ({ entry }) => {
           Edit in Github
         </a>
         <hr />
-        {entry.body.raw
-          .split('\n')
-          .slice(0, Math.floor(totalArrayElements * 0.5))
-          .map((x, i) => (
-            <p key={i} className={styles.paragraphElement}>
-              {x}
-            </p>
-          ))}
+        {entry.body.raw.split('\n').map((x, i) => (
+          <p key={i} className={styles.paragraphElement}>
+            {x}
+          </p>
+        ))}
         <div className={styles.paywallContainer}>
           <p>
-            This is where the free reading ends... For now. If you want to
-            support what I&apos;m doing here, you can go{' '}
+            If you want to support this project, you can go{' '}
             <a
               href={`https://jpfraneto.gumroad.com/l/dukkha`}
               target='_blank'
