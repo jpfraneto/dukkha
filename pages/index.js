@@ -7,33 +7,47 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dukkha · Human Evolution</title>
+        <title>Dukkha DAO</title>
       </Head>
       <div className={styles.container}>
         <div className={styles.topContainer}>
           <h1>DUKKHA</h1>
-          <h2>human evolution</h2>
+          <h2>· the end of depression ·</h2>
         </div>
         <div className={styles.middleText}>
           <p>
-            The aim of this place is to create transformational journeys that
-            will help the transition of humanity into an awakened species.
+            The aim of this place is to create collective experiences that will
+            take you out of the maze of your own mind.
           </p>
-        </div>
-        <a
-          href={`https://jpfraneto.gumroad.com/l/dukkha`}
-          target='_blank'
-          rel='noreferrer'
-          className={styles.paywallBtn}
-        >
-          Get the book
-        </a>{' '}
-        <a href='https://discord.gg/gusNPyAg' target='_blank' rel='noreferrer'>
-          Join the community
-        </a>
-        <Link href='/manifesto'>
-          <a>Manifesto</a>
+        </div>{' '}
+        <Link href='/transformational-journeys'>
+          <a>Transformational Journeys</a>
         </Link>
+        <div>
+          {' '}
+          <Link href='/manifesto'>
+            <a>Manifesto </a>
+          </Link>{' '}
+          ({' '}
+          <a
+            href={`https://jpfraneto.gumroad.com/l/dukkha`}
+            target='_blank'
+            rel='noreferrer'
+            className={styles.paywallBtn}
+          >
+            Get the book
+          </a>{' '}
+          |{' '}
+          <a
+            href={`https://github.com/jpfraneto/dukkha/tree/main/data/manifesto`}
+            target='_blank'
+            rel='noreferrer'
+            className={styles.paywallBtn}
+          >
+            Edit on Github
+          </a>
+          )
+        </div>
       </div>
     </>
   );
