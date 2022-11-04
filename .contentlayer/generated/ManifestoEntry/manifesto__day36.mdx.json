@@ -1,0 +1,21 @@
+{
+  "title": "Day 36, 31 October 2022",
+  "slug": "day-36",
+  "author": "jpfraneto",
+  "date": "312022X",
+  "words": 108,
+  "index": 36,
+  "body": {
+    "raw": "\nToday is one of those days on which I could feel bad because I did not do what I ‘should’ have done: Come here and write. But I did something that was as important as that, went to an amazing hike having eaten an amazing mushroom and then dove into an amazing iced lake on which I felt the truth of being a human being: I can’t fool nature. It knows. The knowledge is within. The step forward is through. Through what being an animal is.\n\nIt was an amazing day, I did not come and write, and it is perfect like this.\n",
+    "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var l=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),p=(t,n)=>{for(var a in n)i(t,a,{get:n[a],enumerable:!0})},r=(t,n,a,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of g(n))!w.call(t,o)&&o!==a&&i(t,o,{get:()=>n[o],enumerable:!(s=u(n,o))||s.enumerable});return t};var x=(t,n,a)=>(a=t!=null?m(l(t)):{},r(n||!t||!t.__esModule?i(a,\"default\",{value:t,enumerable:!0}):a,t)),I=t=>r(i({},\"__esModule\",{value:!0}),t);var d=f((z,h)=>{h.exports=_jsx_runtime});var y={};p(y,{default:()=>_,frontmatter:()=>b});var e=x(d()),b={title:\"Day 36, 31 October 2022\",slug:\"day-36\",author:\"jpfraneto\",date:\"312022X\",words:108,index:36};function c(t){let n=Object.assign({p:\"p\"},t.components);return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsx)(n.p,{children:\"Today is one of those days on which I could feel bad because I did not do what I \\u2018should\\u2019 have done: Come here and write. But I did something that was as important as that, went to an amazing hike having eaten an amazing mushroom and then dove into an amazing iced lake on which I felt the truth of being a human being: I can\\u2019t fool nature. It knows. The knowledge is within. The step forward is through. Through what being an animal is.\"}),`\n`,(0,e.jsx)(n.p,{children:\"It was an amazing day, I did not come and write, and it is perfect like this.\"})]})}function j(t={}){let{wrapper:n}=t.components||{};return n?(0,e.jsx)(n,Object.assign({},t,{children:(0,e.jsx)(c,t)})):c(t)}var _=j;return I(y);})();\n;return Component;"
+  },
+  "_id": "manifesto/day36.mdx",
+  "_raw": {
+    "sourceFilePath": "manifesto/day36.mdx",
+    "sourceFileName": "day36.mdx",
+    "sourceFileDir": "manifesto",
+    "contentType": "mdx",
+    "flattenedPath": "manifesto/day36"
+  },
+  "type": "ManifestoEntry"
+}

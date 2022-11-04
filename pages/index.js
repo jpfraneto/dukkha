@@ -12,21 +12,22 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.topContainer}>
           <h1>DUKKHA</h1>
-          <h2>· the end of depression ·</h2>
+          <h2>· the only way in is through ·</h2>
         </div>
         <div className={styles.middleText}>
           <p>
-            The aim of this place is to create collective experiences that will
-            take you out of the maze of your own mind.
+            I write so that I can better understand what is going inside me.
           </p>
+          <p>I write to make sense of what doesn't seem to have sense.</p>
+          <p>I write so that I can better discover who I am.</p>
+          <p>I write so that I can help others.</p>
+          <p>I write to be more of myself.</p>
+          <p>I write to share my truth.</p>
         </div>{' '}
-        <Link href='/transformational-journeys'>
-          <a>Transformational Journeys</a>
-        </Link>
-        <div>
+        <div className={styles.bookLinks}>
           {' '}
           <Link href='/manifesto'>
-            <a>Manifesto </a>
+            <a>Read</a>
           </Link>{' '}
           ({' '}
           <a

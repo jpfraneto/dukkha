@@ -36,7 +36,7 @@ const ManifestoDay = ({ entry }) => {
         </small>
         <br />
         <Link href='/manifesto'>
-          <a>Back to Manifesto</a>
+          <a>Back to Index</a>
         </Link>
         <br />{' '}
         <a

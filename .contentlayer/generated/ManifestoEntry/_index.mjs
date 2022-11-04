@@ -12,7 +12,27 @@ import manifesto__day17Mdx from './manifesto__day17.mdx.json' assert { type: 'js
 import manifesto__day18Mdx from './manifesto__day18.mdx.json' assert { type: 'json' }
 import manifesto__day19Mdx from './manifesto__day19.mdx.json' assert { type: 'json' }
 import manifesto__day2Mdx from './manifesto__day2.mdx.json' assert { type: 'json' }
+import manifesto__day20Mdx from './manifesto__day20.mdx.json' assert { type: 'json' }
+import manifesto__day21Mdx from './manifesto__day21.mdx.json' assert { type: 'json' }
+import manifesto__day22Mdx from './manifesto__day22.mdx.json' assert { type: 'json' }
+import manifesto__day23Mdx from './manifesto__day23.mdx.json' assert { type: 'json' }
+import manifesto__day24Mdx from './manifesto__day24.mdx.json' assert { type: 'json' }
+import manifesto__day25Mdx from './manifesto__day25.mdx.json' assert { type: 'json' }
+import manifesto__day26Mdx from './manifesto__day26.mdx.json' assert { type: 'json' }
+import manifesto__day27Mdx from './manifesto__day27.mdx.json' assert { type: 'json' }
+import manifesto__day28Mdx from './manifesto__day28.mdx.json' assert { type: 'json' }
+import manifesto__day29Mdx from './manifesto__day29.mdx.json' assert { type: 'json' }
 import manifesto__day3Mdx from './manifesto__day3.mdx.json' assert { type: 'json' }
+import manifesto__day30Mdx from './manifesto__day30.mdx.json' assert { type: 'json' }
+import manifesto__day31Mdx from './manifesto__day31.mdx.json' assert { type: 'json' }
+import manifesto__day32Mdx from './manifesto__day32.mdx.json' assert { type: 'json' }
+import manifesto__day33Mdx from './manifesto__day33.mdx.json' assert { type: 'json' }
+import manifesto__day34Mdx from './manifesto__day34.mdx.json' assert { type: 'json' }
+import manifesto__day35Mdx from './manifesto__day35.mdx.json' assert { type: 'json' }
+import manifesto__day36Mdx from './manifesto__day36.mdx.json' assert { type: 'json' }
+import manifesto__day37Mdx from './manifesto__day37.mdx.json' assert { type: 'json' }
+import manifesto__day38Mdx from './manifesto__day38.mdx.json' assert { type: 'json' }
+import manifesto__day39Mdx from './manifesto__day39.mdx.json' assert { type: 'json' }
 import manifesto__day4Mdx from './manifesto__day4.mdx.json' assert { type: 'json' }
 import manifesto__day5Mdx from './manifesto__day5.mdx.json' assert { type: 'json' }
 import manifesto__day6Mdx from './manifesto__day6.mdx.json' assert { type: 'json' }
@@ -20,4 +40,4 @@ import manifesto__day7Mdx from './manifesto__day7.mdx.json' assert { type: 'json
 import manifesto__day8Mdx from './manifesto__day8.mdx.json' assert { type: 'json' }
 import manifesto__day9Mdx from './manifesto__day9.mdx.json' assert { type: 'json' }
 
-export const allManifestoEntries = [manifesto__day1Mdx, manifesto__day10Mdx, manifesto__day11Mdx, manifesto__day12Mdx, manifesto__day13Mdx, manifesto__day14Mdx, manifesto__day15Mdx, manifesto__day16Mdx, manifesto__day17Mdx, manifesto__day18Mdx, manifesto__day19Mdx, manifesto__day2Mdx, manifesto__day3Mdx, manifesto__day4Mdx, manifesto__day5Mdx, manifesto__day6Mdx, manifesto__day7Mdx, manifesto__day8Mdx, manifesto__day9Mdx]
+export const allManifestoEntries = [manifesto__day1Mdx, manifesto__day10Mdx, manifesto__day11Mdx, manifesto__day12Mdx, manifesto__day13Mdx, manifesto__day14Mdx, manifesto__day15Mdx, manifesto__day16Mdx, manifesto__day17Mdx, manifesto__day18Mdx, manifesto__day19Mdx, manifesto__day2Mdx, manifesto__day20Mdx, manifesto__day21Mdx, manifesto__day22Mdx, manifesto__day23Mdx, manifesto__day24Mdx, manifesto__day25Mdx, manifesto__day26Mdx, manifesto__day27Mdx, manifesto__day28Mdx, manifesto__day29Mdx, manifesto__day3Mdx, manifesto__day30Mdx, manifesto__day31Mdx, manifesto__day32Mdx, manifesto__day33Mdx, manifesto__day34Mdx, manifesto__day35Mdx, manifesto__day36Mdx, manifesto__day37Mdx, manifesto__day38Mdx, manifesto__day39Mdx, manifesto__day4Mdx, manifesto__day5Mdx, manifesto__day6Mdx, manifesto__day7Mdx, manifesto__day8Mdx, manifesto__day9Mdx]

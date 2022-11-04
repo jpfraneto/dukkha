@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import styles from '../../styles/ManifestoIndex.module.css';
 
 const ManifestoIndex = () => {
   const manifestosDays = [
@@ -12,10 +13,10 @@ const ManifestoIndex = () => {
       <Head>
         <title>Dukkha · Manifesto Index</title>
       </Head>{' '}
-      <div>
+      <div className={styles.manifestoIndexContainer}>
         <p>
-          This document is being written every day, until there are 88
-          documents. Each of these documents is{' '}
+          I'm writing this book every day until I get to day number 88. Each of
+          these writings is{' '}
           <a
             href='https://github.com/jpfraneto/dukkha/tree/main/data/manifesto'
             target='_blank'
@@ -26,13 +27,16 @@ const ManifestoIndex = () => {
           </a>
           , waiting for you to edit it.
         </p>
-        {manifestosDays.map((x, i) => (
-          <div key={i}>
-            <Link href={`/manifesto/day-${x}`}>
-              <a>{`Day ${x}`}</a>
-            </Link>
-          </div>
-        ))}
+        <div className={styles.daysList}>
+          {manifestosDays.map((x, i) => (
+            <div key={i}>
+              <Link href={`/manifesto/day-${x}`}>
+                <a>{`Day ${x}`}</a>
+              </Link>
+            </div>
+          ))}
+        </div>
+
         <br />
         <hr></hr>
         <Link href='/'>

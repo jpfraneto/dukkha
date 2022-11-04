@@ -1,0 +1,10 @@
+.manifestoIndexContainer {
+  padding: 8px;
+}
+
+.daysList {
+  flex-direction: column;
+  display: flex;
+  height: 333px;
+  flex-wrap: wrap;
+}
