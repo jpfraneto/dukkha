@@ -15,7 +15,7 @@ const ManifestoIndex = () => {
         <title>Dukkha · Manifesto Index</title>
       </Head>{' '}
       <div className={styles.manifestoIndexContainer}>
-        <p>
+        <p className={styles.manifestoTitleText}>
           I&apos;m writing this book every day until I get to day number 88.
           What you will find here is just the raw draft, without any kind of
           editing. Each of these writings is{' '}
@@ -29,6 +29,7 @@ const ManifestoIndex = () => {
           </a>
           , waiting for you to add your sauce to it.
         </p>
+        <br />
         <div className={styles.daysList}>
           {manifestosDays.map((x, i) => (
             <div key={i}>

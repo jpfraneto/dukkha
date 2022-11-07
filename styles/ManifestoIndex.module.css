@@ -8,3 +8,8 @@
   height: 333px;
   flex-wrap: wrap;
 }
+
+.manifestoTitleText {
+  width: 40%;
+  margin: 0 auto;
+}
