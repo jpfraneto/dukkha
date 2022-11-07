@@ -1,0 +1,21 @@
+{
+  "title": "Day 41, 5 November 2022",
+  "slug": "day-41",
+  "author": "jpfraneto",
+  "date": "052022XI",
+  "words": 0,
+  "index": 41,
+  "body": {
+    "raw": "\nResting and taking a day off is an integral part of Doing The Work.\n",
+    "code": "var Component=(()=>{var u=Object.create;var r=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var j=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),l=(t,n)=>{for(var e in n)r(t,e,{get:n[e],enumerable:!0})},i=(t,n,e,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!g.call(t,o)&&o!==e&&r(t,o,{get:()=>n[o],enumerable:!(s=m(n,o))||s.enumerable});return t};var _=(t,n,e)=>(e=t!=null?u(x(t)):{},i(n||!t||!t.__esModule?r(e,\"default\",{value:t,enumerable:!0}):e,t)),h=t=>i(r({},\"__esModule\",{value:!0}),t);var d=j((k,c)=>{c.exports=_jsx_runtime});var M={};l(M,{default:()=>b,frontmatter:()=>y});var a=_(d()),y={title:\"Day 41, 5 November 2022\",slug:\"day-41\",author:\"jpfraneto\",date:\"052022XI\",words:0,index:41};function f(t){let n=Object.assign({p:\"p\"},t.components);return(0,a.jsx)(n.p,{children:\"Resting and taking a day off is an integral part of Doing The Work.\"})}function D(t={}){let{wrapper:n}=t.components||{};return n?(0,a.jsx)(n,Object.assign({},t,{children:(0,a.jsx)(f,t)})):f(t)}var b=D;return h(M);})();\n;return Component;"
+  },
+  "_id": "manifesto/day41.mdx",
+  "_raw": {
+    "sourceFilePath": "manifesto/day41.mdx",
+    "sourceFileName": "day41.mdx",
+    "sourceFileDir": "manifesto",
+    "contentType": "mdx",
+    "flattenedPath": "manifesto/day41"
+  },
+  "type": "ManifestoEntry"
+}

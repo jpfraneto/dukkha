@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dukkha DAO</title>
+        <title>Dukkha</title>
       </Head>
       <div className={styles.container}>
         <div className={styles.topContainer}>
@@ -16,10 +16,10 @@ export default function Home() {
         </div>
         <div className={styles.middleText}>
           <p>
-            I write so that I can better understand what is going inside me.
+            I write so that I can better understand what is going on inside me.
           </p>
-          <p>I write to make sense of what doesn't seem to have sense.</p>
-          <p>I write so that I can better discover who I am.</p>
+          <p>I write to stop trying to make sense.</p>
+          <p>I write so that I can embody who I am.</p>
           <p>I write so that I can help others.</p>
           <p>I write to be more of myself.</p>
           <p>I write to share my truth.</p>

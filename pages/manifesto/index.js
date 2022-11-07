@@ -6,7 +6,8 @@ import styles from '../../styles/ManifestoIndex.module.css';
 const ManifestoIndex = () => {
   const manifestosDays = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
-    22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39,40,41
+    22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42,
   ];
   return (
     <>
@@ -15,8 +16,9 @@ const ManifestoIndex = () => {
       </Head>{' '}
       <div className={styles.manifestoIndexContainer}>
         <p>
-          I'm writing this book every day until I get to day number 88. Each of
-          these writings is{' '}
+          I&apos;m writing this book every day until I get to day number 88.
+          What you will find here is just the raw draft, without any kind of
+          editing. Each of these writings is{' '}
           <a
             href='https://github.com/jpfraneto/dukkha/tree/main/data/manifesto'
             target='_blank'
@@ -25,7 +27,7 @@ const ManifestoIndex = () => {
           >
             open source
           </a>
-          , waiting for you to edit it.
+          , waiting for you to add your sauce to it.
         </p>
         <div className={styles.daysList}>
           {manifestosDays.map((x, i) => (
