@@ -21,16 +21,7 @@ const ManifestoIndex = () => {
         <p className={styles.manifestoTitleText}>
           I&apos;m writing this book every day until I get to day number 88.
           What you will find here is just the raw draft, without any kind of
-          editing. Each of these writings is{' '}
-          <a
-            href='https://github.com/jpfraneto/dukkha/tree/main/data/manifesto'
-            target='_blank'
-            rel='noreferrer'
-            style={{ color: 'lightblue' }}
-          >
-            open source
-          </a>
-          , waiting for you to add your sauce to it.
+          editing.
         </p>
         <br />
         <div className={styles.daysList}>
