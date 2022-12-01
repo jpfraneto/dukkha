@@ -1,0 +1,21 @@
+{
+  "title": "Day 58, 22 November 2022",
+  "slug": "day-58",
+  "author": "jpfraneto",
+  "date": "222022XI",
+  "words": 4835,
+  "index": 58,
+  "body": {
+    "raw": "\nAnother one that I lost. ",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var x=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,j=Object.prototype.hasOwnProperty;var l=(t,n)=>()=>(n||t((n={exports:{}}).exports,n),n.exports),h=(t,n)=>{for(var e in n)r(t,e,{get:n[e],enumerable:!0})},c=(t,n,e,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of p(n))!j.call(t,o)&&o!==e&&r(t,o,{get:()=>n[o],enumerable:!(a=x(n,o))||a.enumerable});return t};var _=(t,n,e)=>(e=t!=null?m(f(t)):{},c(n||!t||!t.__esModule?r(e,\"default\",{value:t,enumerable:!0}):e,t)),b=t=>c(r({},\"__esModule\",{value:!0}),t);var u=l((w,i)=>{i.exports=_jsx_runtime});var M={};h(M,{default:()=>D,frontmatter:()=>g});var s=_(u()),g={title:\"Day 58, 22 November 2022\",slug:\"day-58\",author:\"jpfraneto\",date:\"222022XI\",words:4835,index:58};function d(t){let n=Object.assign({p:\"p\"},t.components);return(0,s.jsx)(n.p,{children:\"Another one that I lost.\"})}function y(t={}){let{wrapper:n}=t.components||{};return n?(0,s.jsx)(n,Object.assign({},t,{children:(0,s.jsx)(d,t)})):d(t)}var D=y;return b(M);})();\n;return Component;"
+  },
+  "_id": "manifesto/day58.mdx",
+  "_raw": {
+    "sourceFilePath": "manifesto/day58.mdx",
+    "sourceFileName": "day58.mdx",
+    "sourceFileDir": "manifesto",
+    "contentType": "mdx",
+    "flattenedPath": "manifesto/day58"
+  },
+  "type": "ManifestoEntry"
+}
