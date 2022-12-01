@@ -27,11 +27,12 @@ const ManifestoIndex = () => {
           What you will find here is just the raw draft, without any kind of
           editing.
         </p>
+        <br />
         <p className={styles.manifestoTitleText}>
-          There have been {words} written in this journey of deep exploration
-          into myself. I&apos;m not doing this for you to read it, I know it is
-          too much, I&apos;m just doing to process the unfolding that is
-          happening within me.
+          There have been {words} words written in this journey of deep
+          exploration into myself. I&apos;m not doing this for you to read it, I
+          know it is too much, I&apos;m just doing to process the unfolding that
+          is happening within me.
         </p>
         <br />
         <div className={styles.daysList}>
