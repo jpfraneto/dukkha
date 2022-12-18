@@ -41,14 +41,12 @@ export default function Home() {
           </div>
           <div className={styles.middleText}>
             <p>
-              I write so that I can better understand what is going on inside
-              me.
+              All this writing has been done to clarify the idea of the project
+              that I have been envisioning all my life. It is time to transform
+              it into a reality, and everything that you will read here is me
+              thinking about this. Transforming it as a reality in my world so
+              that I can share it to yours.
             </p>
-            <p>I write to stop trying to make sense.</p>
-            <p>I write so that I can embody who I am.</p>
-            <p>I write so that I can help others.</p>
-            <p>I write to be more of myself.</p>
-            <p>I write to share my truth.</p>
           </div>{' '}
           <div className={styles.bookLinks}>
             {' '}
