@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { allManifestoEntries } from 'contentlayer/generated';
 
 export default function Home() {
+  console.log(allManifestoEntries);
   const [displayedRandomParagraph, setDisplayedRandomParagraph] =
     useState(null);
   const [displayedRandomEntryNumber, setDisplayedRandomEntryNumber] =
