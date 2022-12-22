@@ -1,0 +1,39 @@
+.manifestoIndexContainer {
+  padding: 8px;
+}
+
+.daysList {
+  display: flex;
+  height: 333px;
+  flex-wrap: wrap;
+}
+
+.manifestoTitleText {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.dayCircle {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border: white solid 2px;
+  padding: 2px 3px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 4px;
+}
+
+.dayCircle:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .manifestoTitleText {
+    width: 90%;
+  }
+}
