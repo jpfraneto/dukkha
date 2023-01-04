@@ -14,6 +14,13 @@
   margin: 0 auto;
 }
 
+.circlesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 666px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 600px) {
   .manifestoTitleText {
     width: 90%;

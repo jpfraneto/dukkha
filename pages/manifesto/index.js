@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../../styles/ManifestoIndex.module.css';
 import { allManifestoEntries } from 'contentlayer/generated';
+import Circle from '../../components/Circle';
 
 const ManifestoIndex = () => {
+  const [chosenDay, setChosenDay] = useState(null);
+  const [chosenDayText, setChosenDayText] = useState(null);
   const words = allManifestoEntries.reduce((acc, val) => {
     return acc + val.words;
   }, 0);
+  const changeChosenDay = num => {
+    setChosenDay(num);
+    const newChosenDay = allManifestoEntries.filter(x => x.index === num);
+    setChosenDayText(newChosenDay[0]);
+  };
   const manifestosDays = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
     22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
@@ -35,13 +43,24 @@ const ManifestoIndex = () => {
           is happening within me.
         </p>
         <br />
-        <div className={styles.daysList}>
-          {manifestosDays.map((x, i) => (
-            <div key={i}>
-              <Link href={`/manifesto/day-${x}`}>
-                <a>{`Day ${x}`}</a>
-              </Link>
-            </div>
+        <div className={styles.circlesContainer}>
+          {manifestosDays.map((x, index) => {
+            return (
+              <Circle
+                i={x}
+                key={index}
+                el={x}
+                changeChosenDay={changeChosenDay}
+              />
+            );
+          })}
+        </div>
+        <div className={styles.circlesContainer}>
+          <h3>Day {chosenDay}</h3>
+          {chosenDayText?.body.raw.split('\n').map((x, i) => (
+            <p key={i} className={styles.paragraphElement}>
+              {x}
+            </p>
           ))}
         </div>
 

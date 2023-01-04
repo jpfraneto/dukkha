@@ -51,6 +51,9 @@ export default function Home() {
           </div>{' '}
           <div className={styles.bookLinks}>
             {' '}
+            <a href='assets/dukkha-completedraft.pdf' download>
+              Download pdf
+            </a>
             <Link href='/manifesto'>
               <a className={styles.getRandomParagraphBtn}>Read</a>
             </Link>{' '}

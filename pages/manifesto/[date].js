@@ -23,6 +23,7 @@ export async function getStaticProps({ params }) {
 }
 
 const ManifestoDay = ({ entry }) => {
+  console.log(entry.body.raw.replace('\n', '').replace('\n', ''));
   const totalArrayElements = entry.body.raw.split('\n').length;
   return (
     <>
