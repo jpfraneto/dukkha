@@ -57,12 +57,15 @@ const ManifestoIndex = () => {
         </div>
         {chosenDayText && (
           <div className={styles.circlesContainer}>
-            <h3>Day {chosenDay}</h3>
-            {chosenDayText?.body.raw.split('\n').map((x, i) => (
-              <p key={i} className={styles.paragraphElement}>
-                {x}
-              </p>
-            ))}
+            <h3>Day {chosenDay}</h3> <br />
+            {chosenDayText?.body.raw.split('\n').map((x, i) => {
+              if (x.length < 5) return;
+              return (
+                <p key={i} className={styles.paragraphElement}>
+                  {x}
+                </p>
+              );
+            })}
           </div>
         )}
 

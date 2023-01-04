@@ -21,6 +21,11 @@
   margin: 0 auto;
 }
 
+.paragraphElement {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0;
+}
+
 @media only screen and (max-width: 600px) {
   .manifestoTitleText {
     width: 90%;
