@@ -55,14 +55,16 @@ const ManifestoIndex = () => {
             );
           })}
         </div>
-        <div className={styles.circlesContainer}>
-          <h3>Day {chosenDay}</h3>
-          {chosenDayText?.body.raw.split('\n').map((x, i) => (
-            <p key={i} className={styles.paragraphElement}>
-              {x}
-            </p>
-          ))}
-        </div>
+        {chosenDayText && (
+          <div className={styles.circlesContainer}>
+            <h3>Day {chosenDay}</h3>
+            {chosenDayText?.body.raw.split('\n').map((x, i) => (
+              <p key={i} className={styles.paragraphElement}>
+                {x}
+              </p>
+            ))}
+          </div>
+        )}
 
         <br />
         <hr></hr>
